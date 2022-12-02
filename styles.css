@@ -1,0 +1,385 @@
+
+* {
+    margin:0;
+    box-sizing: border-box;
+}
+
+@font-face { 
+    font-family: Champion-HTF-Featherweight; 
+    src: url('fonts/Champion-HTF-Featherweight.otf');
+}
+
+@font-face {
+    font-family: Champion-HTF-Middleweight;
+    src: url('fonts/Champion-HTF-Middleweight.otf')
+}
+
+/*header and navbar*/
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction:row;
+    background-color: #13294b;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+.header-image {
+    height: 80px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: Champion-HTF-Middleweight;
+    font-size: 30pt;
+    line-height: 30pt;
+    color: #4b9cd3;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container {
+    font-family: Champion-HTF-Featherweight;
+    font-size: 22pt;
+    padding-top: 100px;
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    display: inline-flex;
+    background-color: #d2e6f4;
+    justify-content: center;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 40px;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    padding-left: 40px;
+}
+
+ul:hover {
+    text-decoration: underline;
+}
+a.nav-links {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #13294b;
+}
+
+a:hover {
+    color:#4b9cd3;
+}
+
+/*home page*/
+.home-image {
+    width: 100%;
+}
+
+h2 {
+    font-family: Champion-HTF-Middleweight;
+    font-size: 40pt;
+    color: #4b9cd3;
+    text-align: center;
+}
+
+p {
+    font-family: Champion-HTF-Featherweight;
+    font-size: 28px;
+    padding-left: 120px;
+    padding-right: 120px;
+    text-align: center;
+}
+
+/*footer*/
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #4b9cd3;
+}
+
+.footer-image {
+    height: 64px;
+    border-right: 2px solid #13294b;
+}
+
+h3 {
+    font-family: Champion-HTF-Featherweight;
+    font-size: 22px;
+    color: #13294b;
+    line-height: 22px;
+    margin-left: 2px;
+}
+
+.news-container {
+    background: #d2e6f4;
+}
+
+.news-header {
+    font-family: Champion-HTF-Middleweight;
+    font-size: 40pt;
+    color: #13294b;
+    padding-left: 40px;
+    margin-bottom: -20px;
+}
+
+h4 {
+    font-family: Champion-HTF-Middleweight;
+    font-size: 28px;
+}
+
+.news {
+    display: inline-flex;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 400px; 
+    flex-direction: column;
+}
+
+.jdpic {
+    height: 269px;
+    width: auto;
+}
+
+.coastalchamps {
+    height: 269px;
+    width: auto;
+}
+
+h4 {
+    color: #13294b;
+}
+
+.news-preview {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+button {
+    color:#13294b;
+    width: 120px;
+    font-family: Champion-HTF-Middleweight;
+    background-color:#4b9cd3;
+    border: none;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+button:hover {
+    color:#4b9cd3;
+    background-color:#13294b;
+}
+
+/*player page*/
+
+.container-fluid-players {
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.key-players {
+    font-family: Champion-HTF-Middleweight;
+    font-size: 40pt;
+    color: #4b9cd3;
+    text-align: center;
+    padding-top: 180px;
+}
+
+.card {
+    display: inline-flex;
+    padding:20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 300px;
+    flex-direction: column;
+    background-color: #d2e6f4;
+}
+
+.card-text {
+    font-family: Champion-HTF-Middleweight;
+    font-size: 28px;
+}
+
+.card-subheading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height:26px;
+}
+
+.team-leaders {
+    font-family: Champion-HTF-Middleweight;
+    font-size: 40pt;
+    color: #13294b;
+    margin-bottom: -20px;
+}
+
+.stats-container {
+    background-color: #d2e6f4;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.stat-card {
+    padding: 10px;
+    max-width: 240px;
+    background-color:#ffffff;
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.stat-card-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    max-width: 240px;
+    background-color: #ffffff;
+    display: inline-flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.statimg {
+    width: 200px;
+}
+/*contact page*/
+.container-fluid-contact {
+    display: flex;
+    justify-content: center;
+    background-image: url(images/stadium.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.contact {
+    font-family: Champion-HTF-Middleweight;
+    font-size: 40pt;
+    color: #4b9cd3;
+    text-align: center;
+    justify-content: center;
+    position:static;
+    left: 120px;
+    padding-top: 160px;
+}
+
+fieldset {
+    border: none;
+}
+
+.contact-form {
+    max-width: 800px;
+    background: #d2e6f4;
+    padding: 20px;
+    margin: 40px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    font-size: 20px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 20px;
+    width: 100%;
+}
+
+input:hover, input:focus, textarea:hover, textarea:focus {
+    border: 2px solid #13294b;
+}
+
+label {
+    font-family: Champion-HTF-Middleweight;
+    font-size: 20px;
+    color: #13294b;
+}
+
+.form-button {
+    width: 100%;
+    font-size: 20px;
+    border-radius: 5pt;
+}
+
+.container-fluid-contact-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #d2e6f4;
+}
+
+.social-header {
+    font-family: Champion-HTF-Middleweight;
+    font-size: 40pt;
+    color: #13294b;
+    margin-bottom: -20px;
+    padding-left:40px;
+}
+.social-container {
+    flex-direction: row;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.socialmedia {
+    height: 60px;
+    width: 60px;
+    display: inline-flex;
+}
+
+.requests-container {
+    display: inline-flex;
+    padding: 40px;
+    align-items: center;
+    background-color:#13294b;
+    width: 100%;
+}
+.request-header {
+    font-family: Champion-HTF-Middleweight;
+    font-size: 20px;
+    color: #4b9cd3;
+}
+
+.request-subheader {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #d2e6f4;
+}
+.requests {
+    margin-right: 40px;
+}
+/*media queries*/
+@media screen and (max-width:750px) {
+    p {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+}
+
+@media screen and (max-width:800) {
+    p {
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+}
